@@ -1,0 +1,46 @@
+# Compiled Object files
+*.o
+*.obj
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Build artifacts
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+
+# IDE and Editor files
+.vscode/
+.vs/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.bak
+*.backup
+test_demo.txt
+
+# Runtime data (created by program)
+.oopscp/
+data/.oopscp/
+
+# Windows specific
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Backup files
+*.bak
+main_working.cpp
+main.cpp.bak

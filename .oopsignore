@@ -1,0 +1,50 @@
+# OOPSCP Ignore File
+# Similar to .gitignore - patterns for files/directories to exclude from snapshots
+
+# Version control
+.git/
+.svn/
+.hg/
+
+# Build artifacts
+*.exe
+*.o
+*.obj
+*.dll
+*.so
+*.a
+*.lib
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.bak
+*.backup
+
+# Large media files (optional - comment out if you want to track these)
+# *.mp4
+# *.avi
+# *.mkv
+# *.iso
+
+# Node modules and dependencies
+node_modules/
+vendor/
+packages/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# OOPSCP internal directory
+.oopscp/
